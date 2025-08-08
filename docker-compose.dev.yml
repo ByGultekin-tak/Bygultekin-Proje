@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  # MySQL Database (Development)
+  mysql-dev:
+    image: mysql:8.0
+    container_name: sahibinden_mysql_dev
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: devpassword
+      MYSQL_DATABASE: sahibinden_clone_dev
+      MYSQL_USER: devuser
+      MYSQL_PASSWORD: devpassword
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_dev_data:/var/lib/mysql
+    networks:
+      - sahibinden_dev_network
+
+  # Redis (Development)
+  redis-dev:
+    image: redis:7-alpine
+    container_name: sahibinden_redis_dev
+    restart: unless-stopped
+    ports:
+      - "6380:6379"
+    volumes:
+      - redis_dev_data:/data
+    networks:
+      - sahibinden_dev_network
+
+volumes:
+  mysql_dev_data:
+  redis_dev_data:
+
+networks:
+  sahibinden_dev_network:
+    driver: bridge
