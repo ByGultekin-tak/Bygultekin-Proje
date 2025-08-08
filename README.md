@@ -6,15 +6,18 @@ A modern, scalable marketplace platform inspired by second-hand and classified a
 
 This project follows a **multi-repository architecture** with separate repos for each component:
 
-### 📦 Repositories:
-- **🔧 Backend API**: `elelden-backend` - Go REST API with Clean Architecture
-- **🌐 Frontend Web**: `elelden-frontend` - React TypeScript SPA  
-- **📱 Mobile App**: `elelden-mobile` - React Native (future)
-- **🔧 Admin Panel**: `elelden-admin` - Admin management interface (future)
-- **📊 Analytics**: `elelden-analytics` - Data analytics service (future)
+### 📦 Active Repositories:
+- **🔧 Backend API**: [elelden-backend](https://github.com/ByGultekin-tak/elelden-backend) - Go REST API with Clean Architecture
+- **🌐 Frontend Web**: [elelden-frontend](https://github.com/ByGultekin-tak/elelden-frontend) - React TypeScript SPA  
 
-### 🏢 Current Repository: Backend Foundation
-This repository contains the initial backend setup and will be migrated to separate repositories.
+### 🚀 Future Repositories:
+- **📱 Mobile App**: `elelden-mobile` - React Native (planned)
+- **🔧 Admin Panel**: `elelden-admin` - Admin management interface (planned)
+- **📊 Analytics**: `elelden-analytics` - Data analytics service (planned)
+
+### 🏢 Current Repository Status
+This repository served as the initial monorepo setup and has been successfully split into separate repositories. 
+Each component now has its own dedicated repository for better development workflow.
 
 ## 🎯 Core Features by Category
 
