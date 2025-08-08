@@ -1,17 +1,17 @@
-# Sahibinden Clone - Multi-Repository Architecture
+# Elelden - Multi-Repository Architecture
 
-A modern, scalable marketplace platform inspired by Sahibinden.com, built with **separate repositories** for better maintainability and scalability.
+A modern, scalable marketplace platform inspired by second-hand and classified ads platforms, built with **separate repositories** for better maintainability and scalability.
 
 ## 🏗️ Repository Structure
 
 This project follows a **multi-repository architecture** with separate repos for each component:
 
 ### 📦 Repositories:
-- **🔧 Backend API**: `sahibinden-backend` - Go REST API with Clean Architecture
-- **🌐 Frontend Web**: `sahibinden-frontend` - React TypeScript SPA  
-- **📱 Mobile App**: `sahibinden-mobile` - React Native (future)
-- **🔧 Admin Panel**: `sahibinden-admin` - Admin management interface (future)
-- **📊 Analytics**: `sahibinden-analytics` - Data analytics service (future)
+- **🔧 Backend API**: `elelden-backend` - Go REST API with Clean Architecture
+- **🌐 Frontend Web**: `elelden-frontend` - React TypeScript SPA  
+- **📱 Mobile App**: `elelden-mobile` - React Native (future)
+- **🔧 Admin Panel**: `elelden-admin` - Admin management interface (future)
+- **📊 Analytics**: `elelden-analytics` - Data analytics service (future)
 
 ### 🏢 Current Repository: Backend Foundation
 This repository contains the initial backend setup and will be migrated to separate repositories.

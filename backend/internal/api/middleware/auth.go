@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/ByGultekin-tak/sahibinden-backend/pkg/auth"
+	"github.com/ByGultekin-tak/elelden-backend/pkg/auth"
 	"github.com/gin-gonic/gin"
 )
 

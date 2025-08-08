@@ -1,4 +1,4 @@
-module github.com/ByGultekin-tak/sahibinden-backend
+module github.com/ByGultekin-tak/elelden-backend
 
 go 1.21
 

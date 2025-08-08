@@ -1,5 +1,5 @@
 @echo off
-echo 🚀 Starting Sahibinden Clone Development Environment
+echo 🚀 Starting Elelden Development Environment
 
 REM Check if Docker is running
 docker info >nul 2>&1
@@ -15,7 +15,7 @@ docker-compose -f docker-compose.dev.yml up -d
 REM Wait for MySQL to be ready
 echo [INFO] Waiting for MySQL to be ready...
 :wait_mysql
-docker exec sahibinden_mysql_dev mysqladmin ping -h"localhost" --silent >nul 2>&1
+docker exec elelden_mysql_dev mysqladmin ping -h"localhost" --silent >nul 2>&1
 if %errorlevel% neq 0 (
     echo|set /p="."
     timeout /t 1 /nobreak >nul

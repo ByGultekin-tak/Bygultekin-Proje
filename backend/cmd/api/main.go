@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/ByGultekin-tak/sahibinden-backend/internal/api/routes"
-	"github.com/ByGultekin-tak/sahibinden-backend/internal/config"
+	"github.com/ByGultekin-tak/elelden-backend/internal/api/routes"
+	"github.com/ByGultekin-tak/elelden-backend/internal/config"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )

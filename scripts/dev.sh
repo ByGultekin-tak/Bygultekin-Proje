@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🚀 Starting Sahibinden Clone Development Environment"
+echo "🚀 Starting Elelden Development Environment"
 
 # Colors for output
 RED='\033[0;31m'
@@ -33,7 +33,7 @@ docker-compose -f docker-compose.dev.yml up -d
 
 # Wait for MySQL to be ready
 print_status "Waiting for MySQL to be ready..."
-until docker exec sahibinden_mysql_dev mysqladmin ping -h"localhost" --silent; do
+until docker exec elelden_mysql_dev mysqladmin ping -h"localhost" --silent; do
     echo -n "."
     sleep 1
 done

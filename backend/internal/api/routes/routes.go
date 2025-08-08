@@ -3,7 +3,7 @@ package routes
 import (
 	"net/http"
 
-	"github.com/ByGultekin-tak/sahibinden-backend/internal/config"
+	"github.com/ByGultekin-tak/elelden-backend/internal/config"
 	"github.com/gin-gonic/gin"
 )
 
